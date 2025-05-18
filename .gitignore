@@ -45,6 +45,7 @@ yarn-error.log*
 public/images/generated/
 src/data/generated/
 
+backend/serviceAccountKey.json
 
 ml-service/venv/
 * text=auto
