@@ -1,0 +1,36 @@
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .inventory-table th,
+  .inventory-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .status.available {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status.low {
+    background-color: #ffd966;
+    padding: 4px 8px;
+    border-radius: 5px;
+  }
+  
+  .status.out {
+    background-color: #e06666;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .inventory-summary {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
